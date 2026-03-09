@@ -3,21 +3,6 @@ local WindUI = loadstring(game:HttpGet(
 "https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"
 ))()
 
-Background = "rbxassetid://121164944768475",
-
--- ↓ Optional. You can  
---[[ You can set 'rbxassetid://' or video to Background.  
-    'rbxassetid://':  
-        Background = "rbxassetid://121164944768475", -- rbxassetid  
-    Video:  
-        Background = "video:YOUR-RAW-LINK-TO-VIDEO.webm", -- video   
---]]  
-
-
--------------------------------------------------
--- WINDOW
--------------------------------------------------
-
 local Window = WindUI:CreateWindow({
     Title = "XFIREX HUB (Key System)",
     Icon = "door-open",
@@ -32,6 +17,22 @@ local Window = WindUI:CreateWindow({
     Resizable = true,
     SideBarWidth = 200,
 })
+
+
+
+Background = "rbxassetid://121164944768475",
+
+-- ↓ Optional. You can  
+--[[ You can set 'rbxassetid://' or video to Background.  
+    'rbxassetid://':  
+        Background = "rbxassetid://121164944768475", -- rbxassetid  
+    Video:  
+        Background = "video:YOUR-RAW-LINK-TO-VIDEO.webm", -- video   
+--]]  
+
+
+
+
 
 -------------------------------------------------
 -- TAB KEY SYSTEM
