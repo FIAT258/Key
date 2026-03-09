@@ -20,15 +20,6 @@ local Window = WindUI:CreateWindow({
 
 
 
-Background = "rbxassetid://121164944768475",
-
--- ↓ Optional. You can  
---[[ You can set 'rbxassetid://' or video to Background.  
-    'rbxassetid://':  
-        Background = "rbxassetid://121164944768475", -- rbxassetid  
-    Video:  
-        Background = "video:YOUR-RAW-LINK-TO-VIDEO.webm", -- video   
---]]  
 
 
 
